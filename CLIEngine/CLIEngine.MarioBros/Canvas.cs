@@ -13,7 +13,7 @@ public class Canvas
     }
 
     public void Blit(List<List<Rich>> layer, (int, int) locator) {
-
+        
     }
 
     public List<List<List<Rich>>> Layers() {
