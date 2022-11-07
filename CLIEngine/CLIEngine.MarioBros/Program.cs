@@ -1,12 +1,13 @@
 ﻿namespace CLIEngine.MarioBros;
+using _painters;
 
 /*
 * [-] Basics
-* [ ] Analog Reflection
 * [ ] Color Display
 * [ ] Game Loop
 * [ ] Viewport
 * [ ] UI
+* [ ] Analog Reflection
 * [ ] Color Bleed
 */
 
@@ -14,8 +15,9 @@
 class Program {
     static public void Main(String[] args)
     {
+        Renderer renderman = new Renderer();
         Canvas demoCanvas = new Canvas(80, 45);
-        
-        Console.WriteLine(testRich.glue());
+
+        demoCanvas.Blit(new BasicText().Paint());
     }
 }
