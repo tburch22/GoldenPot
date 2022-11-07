@@ -12,7 +12,7 @@ public class Canvas
         size = (xSrc, ySrc);
     }
 
-    public void Paint(List<List<Rich>> layer, (int, int) locator) {
+    public void Blit(List<List<Rich>> layer, (int, int) locator) {
 
     }
 
