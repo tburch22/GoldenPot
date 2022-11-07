@@ -1,0 +1,15 @@
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/CLIEngine.MarioBros
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/CLIEngine.MarioBros.deps.json
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/CLIEngine.MarioBros.runtimeconfig.json
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/CLIEngine.MarioBros.dll
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/ref/CLIEngine.MarioBros.dll
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/CLIEngine.MarioBros.pdb
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.csproj.AssemblyReference.cache
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.GeneratedMSBuildEditorConfig.editorconfig
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.AssemblyInfoInputs.cache
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.AssemblyInfo.cs
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.csproj.CoreCompileInputs.cache
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.dll
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/ref/CLIEngine.MarioBros.dll
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.pdb
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.genruntimeconfig.cache
