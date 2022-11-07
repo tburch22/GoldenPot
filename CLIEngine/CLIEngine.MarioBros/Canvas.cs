@@ -4,8 +4,8 @@ namespace CLIEngine.MarioBros;
 public class Canvas
 {
     // Layer<Y<X<Char>>>
-    List<List<List<Rich>>> store;
-    (int, int) size;
+    private List<List<List<Rich>>> store;
+    private (int, int) size;
 
     public Canvas(int xSrc, int ySrc) {
         store = new List<List<List<Rich>>>();
