@@ -18,6 +18,6 @@ class Program {
         Renderer renderman = new Renderer();
         Canvas demoCanvas = new Canvas(80, 45);
 
-        demoCanvas.Blit(new BasicText("Test Text", Color.Black, BGColor.White).Paint());
+        demoCanvas.Blit(new BasicText("Test Text", Color.Black, BGColor.White).Paint(), (0, 0));
     }
 }
