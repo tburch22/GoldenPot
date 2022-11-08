@@ -13,7 +13,9 @@ public class Canvas
     }
 
     public void Blit(List<List<Rich>> layer, (int, int) locator) {
-        
+        List<Rich> hMargin = new List<Rich>();
+        Rich vSpacer = new Rich(" ", Color.Opacity, BGColor.Opacity);
+
     }
 
     public List<List<List<Rich>>> Layers() {
