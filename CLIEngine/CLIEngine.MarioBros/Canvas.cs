@@ -32,7 +32,9 @@ public class Canvas
 
         for(int b = 0; b < size.Item2-result.Count; b++) {
             result.Append(hFinalSpacer);
-        }        
+        }    
+
+        store.Append(result);    
 
         Console.WriteLine(layer.ToString());
     }
