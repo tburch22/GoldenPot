@@ -17,8 +17,6 @@ public class Canvas
         Rich vSpacer = new Rich(" ", Color.Opacity, BGColor.Opacity);
         List<Rich> hFinalSpacer = Enumerable.Repeat(vSpacer, size.Item1).ToList();
 
-        Console.WriteLine(layer.ToString());
-
         foreach(List<Rich> row in layer) {
             List<Rich> hSpacer = Enumerable.Repeat(vSpacer, locator.Item1).ToList();
             hSpacer.AddRange(row);
