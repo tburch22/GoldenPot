@@ -18,11 +18,18 @@ public class Renderer
     }
 
     public string Process() {
+
+        // Convert contexts into layers and push them onto the buffer.
         foreach(dynamic contextObject in contexts) {
-            if (contextObject.getType() == typeof(Canvas)) {
-                Console.WriteLine("EILJFDIEWWWWWWSENFSENF");
+            if (contextObject is Canvas) {
+                buffer.AddRange(contextObject.Layers());
             }
         }
+
+        // Flatten the buffer and push result into final. - Main Render Algorithm
+
+
+        // Turn the final buffer into a printable string.
         return "kwjelkw";
     }
 }
