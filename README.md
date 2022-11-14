@@ -7,6 +7,7 @@ Mit dieser Engine möchte ich das Arcade Spiel Mario-Bros nachbilden.
 
 ### Architektur 
 Die App besteht aus einigen Komponenten. Man kann das Programm in zwei Konzerne aufteilen, 1. Das Spiel, 2. die Render-Engine.  
+
 CLI-Render:
    Die Render-Engine besteht aus der Renderer Klasse welche die Grafikrohdaten nimmt und in ein 2d Char-Array umwandelt welches auf der Konsole angezeigt werden kann.
    Die Grafikrohdaten werden in der Canvas (Leinwand) Klasse zwischengespeichert, somit kann man mehrere Grafikkontexte verwalten, bspw. für Hintergrund und Vordergrund.
