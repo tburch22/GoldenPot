@@ -14,7 +14,7 @@ CLI-Render:
    Das grundsätzliche Basiselement ist das Rich (Reich - Von Rich Text, Text mit Formatdaten), dieses element wird in den Canvas benutzt und vom Renderer zu strings verarbeitet.
    
 ### Roadmap
-* [-] Basics            - Basisklassen fertigstellen
+* [x] Basics            - Basisklassen fertigstellen
 * [ ] Game Loop         - Ein Mainloop der Painter-Parameter ändert
 * [ ] Viewport          - Ein In-Between-Painter (Nimmt Painterdaten an und wandelt sie weiter), simuliert eine Kamera
 * [ ] UI                - Ein GUI-System
