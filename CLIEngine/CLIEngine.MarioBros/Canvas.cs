@@ -34,9 +34,7 @@ public class Canvas
             result.Append(hFinalSpacer);
         }    
 
-        store.Append(result);    
-
-        Console.WriteLine(layer.ToString());
+        store.Append(result);
     }
 
     public List<List<List<Rich>>> Layers() {

@@ -12,6 +12,12 @@ public class Renderer
         final = new List<List<Rich>>();
         tasks = new List<dynamic>();
     }
+    
+    public void Stash(dynamic context) {
 
+    }
 
+    public string Process() {
+        return "Test";
+    }
 }

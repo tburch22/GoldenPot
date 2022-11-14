@@ -9,5 +9,7 @@ class Program {
         Canvas demoCanvas = new Canvas(80, 45);
 
         demoCanvas.Blit(new BasicText("Test Text", Color.Black, BGColor.White).Paint(), (0, 0));
+        renderman.Stash(demoCanvas);
+        renderman.Process();
     }
 }
