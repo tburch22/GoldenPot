@@ -1,16 +1,6 @@
 ﻿namespace CLIEngine.MarioBros;
 using _painters;
 
-/*
-* [-] Basics
-* [ ] Color Display
-* [ ] Game Loop
-* [ ] Viewport
-* [ ] UI
-* [ ] Analog Reflection
-* [ ] Color Bleed
-*/
-
 // Main Program
 class Program {
     static public void Main(String[] args)
