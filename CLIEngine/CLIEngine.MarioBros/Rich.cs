@@ -16,4 +16,8 @@ public class Rich
     public string glue() {
         return "\u001b[" + (int) charColor + ";" + (int) charBackground + "m" + character + "\u001b[0m";
     }
+
+    public string simpleChar() {
+        return character;
+    }
 }

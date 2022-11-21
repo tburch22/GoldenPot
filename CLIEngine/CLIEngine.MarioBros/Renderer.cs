@@ -17,8 +17,15 @@ public class Renderer
         contexts.Add(context);
     }
 
-    public string Process() {
+    private bool isTransparent(Rich currRich) {
+        if (currRich.simpleChar() == "\u2800") {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
+    public string Process() {
         // Convert contexts into layers and push them onto the buffer.
         foreach(dynamic contextObject in contexts) {
             if (contextObject is Canvas) {
@@ -27,9 +34,9 @@ public class Renderer
         }
 
         // Flatten the buffer and push result into final. - Main Render Algorithm
-
+        
 
         // Turn the final buffer into a printable string.
-        return "kwjelkw";
+        return "kwje\u2800lkw";
     }
 }

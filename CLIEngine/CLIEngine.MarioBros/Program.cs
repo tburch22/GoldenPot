@@ -10,6 +10,12 @@ class Program {
 
         demoCanvas.Blit(new BasicText("Test Text", Color.Black, BGColor.White).Paint(), (0, 0));
         renderman.Stash(demoCanvas);
-        renderman.Process();
+
+
+        while(true) {
+            ConsoleWrapper.flush(renderman.Process());
+
+            ConsoleWrapper.throttle(17);
+        }
     }
 }
