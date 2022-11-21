@@ -3,7 +3,7 @@
 
 ### Planung
 Ich habe mir vorgenommen ein Konsolenspiel zu programmieren. Dabei wollte ich mir etwas vornehmen womit ich schon vertraut bin, aber trotzdem einen Lernfaktor vorfinde. Somit mache ich eine portierung einer CLI-Render-Engine die ich zuvor in Python entwickelt hatte.
-Mit dieser Engine möchte ich das Arcade Spiel Mario-Bros nachbilden.
+Mit dieser Engine möchte ich das Spiel Super Mario Bros. nachbilden.
 
 ### Architektur 
 Die App besteht aus einigen Komponenten. Man kann das Programm in zwei Konzerne aufteilen, 1. Das Spiel, 2. die Render-Engine.  
