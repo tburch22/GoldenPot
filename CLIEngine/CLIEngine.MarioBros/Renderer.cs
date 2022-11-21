@@ -38,13 +38,21 @@ public class Renderer
         }
 
         // Flatten the buffer and push result into final. - Main Render Algorithm
-        (int, int) pointer = size;
         for(int partY = size.Item2; partY > 0; partY--) {
+            List<Rich> horizontalScan = new List<Rich>();
             for(int partX = size.Item1; partX > 0; partX--) {
+                Rich swapChar = new Rich("\u2800", Color.Opacity, BGColor.Opacity);
                 foreach(List<List<Rich>> layer in buffer) {
-                    
+                    Rich currRich = layer[partY][partX];
+                    if(isTransparent(currRich)) {
+                        break;
+                    } else {
+                        swapChar = currRich;
+                    }
                 }
+                horizontalScan.Add(swapChar);
             }
+            final.Add(horizontalScan);
         }
 
         // Turn the final buffer into a printable string.
