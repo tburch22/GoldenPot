@@ -6,14 +6,14 @@ class Program {
     static public void Main(String[] args)
     {
         Renderer renderman = new Renderer();
-        Canvas demoCanvas = new Canvas(80, 45);
+        Canvas baseCanvas = new Canvas(80, 45);
 
-        demoCanvas.Blit(new BasicText("Test Text", Color.Black, BGColor.White).Paint(), (0, 0));
-        renderman.Stash(demoCanvas);
+        baseCanvas.Blit(new BasicText("Test Text", Color.Black, BGColor.White).Paint(), (0, 0));
+        renderman.Stash(baseCanvas);
 
 
         while(true) {
-            ConsoleWrapper.flush(renderman.Process());
+            ConsoleWrapper.flush(renderman.Process((baseCanvas.size.Item1, baseCanvas.size.Item2)));
 
             ConsoleWrapper.throttle(17);
         }

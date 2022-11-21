@@ -25,7 +25,11 @@ public class Renderer
         }
     }
 
-    public string Process() {
+    private String flatten() {
+        return "";
+    }
+
+    public string Process((int, int) size) {
         // Convert contexts into layers and push them onto the buffer.
         foreach(dynamic contextObject in contexts) {
             if (contextObject is Canvas) {
