@@ -15,7 +15,7 @@ class Program {
         while(true) {
             ConsoleWrapper.flush(renderman.Process((baseCanvas.size.Item1, baseCanvas.size.Item2)));
 
-            ConsoleWrapper.throttle(17);
+            ConsoleWrapper.throttle(30);
         }
     }
 }

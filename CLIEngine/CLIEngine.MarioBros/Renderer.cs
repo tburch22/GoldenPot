@@ -25,11 +25,22 @@ public class Renderer
         }
     }
 
-    private String flatten() {
-        return "";
+    private String flatten((int, int) size) {
+        String finalString = "";
+        for(int scanY = 0; scanY < size.Item2; scanY++) {
+            for(int scanX = 0; scanX < size.Item1; scanX++) {
+                finalString += final[scanY][scanX].glue();
+            }
+            finalString += "\n";
+        }
+        return finalString;
     }
 
     public string Process((int, int) size) {
+        // Clear the buffer.
+        buffer =  new List<List<List<Rich>>>();
+        final = new List<List<Rich>>();
+
         // Convert contexts into layers and push them onto the buffer.
         foreach(dynamic contextObject in contexts) {
             if (contextObject is Canvas) {
@@ -55,7 +66,7 @@ public class Renderer
             final.Add(horizontalScan);
         }
 
-        // Turn the final buffer into a printable string.
-        return "kwje\u2800lkw";
+        // Turn the final buffer into a printable string and return it.
+        return flatten(size);
     }
 }

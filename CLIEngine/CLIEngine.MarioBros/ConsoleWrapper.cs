@@ -8,6 +8,6 @@ public static class ConsoleWrapper
     }
 
     public static void throttle(int delta) {
-        System.Threading.Thread.Sleep(delta);
+        System.Threading.Thread.Sleep(1000/delta);
     }
 }
