@@ -38,7 +38,14 @@ public class Renderer
         }
 
         // Flatten the buffer and push result into final. - Main Render Algorithm
-        
+        (int, int) pointer = size;
+        for(int partY = size.Item2; partY > 0; partY--) {
+            for(int partX = size.Item1; partX > 0; partX--) {
+                foreach(List<List<Rich>> layer in buffer) {
+                    
+                }
+            }
+        }
 
         // Turn the final buffer into a printable string.
         return "kwje\u2800lkw";
