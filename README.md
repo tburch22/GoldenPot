@@ -19,7 +19,7 @@ CLI-Render:
    
 ### Roadmap
 * [x] Basics            - Basisklassen fertigstellen
-* [ ] Game Loop         - Ein Mainloop der Painter-Parameter ändert
+* [X] Game Loop         - Ein Mainloop der Painter-Parameter ändert
 * [ ] Viewport          - Ein In-Between-Painter (Nimmt Painterdaten an und wandelt sie weiter), simuliert eine Kamera
 * [ ] UI                - Ein GUI-System
 * [ ] Analog Reflection - Automatisches Gameobject -> Grafikkontext linking
