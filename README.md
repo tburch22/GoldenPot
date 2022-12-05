@@ -18,7 +18,7 @@ CLI-Render:
    #M4 Renderer funktionstüchtig.
    
 ### Roadmap
-* [x] Basics            - Basisklassen fertigstellen
+* [x] Basics            - Basisklassen fertigstellen (Renderer, Canvas, etc.)
 * [X] Game Loop         - Ein Mainloop der Painter-Parameter ändert.
 * [ ] Surface Painter   - Custom Grafiken Anzeigen.
 * [ ] Sprite Painter    - Spieler mit Spritesheet Animation.
