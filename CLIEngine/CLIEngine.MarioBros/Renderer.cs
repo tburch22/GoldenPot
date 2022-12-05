@@ -54,7 +54,7 @@ public class Renderer
             for(int partX = size.Item1; partX > 0; partX--) {
                 Rich swapChar = new Rich("\u2800", Color.Opacity, BGColor.Opacity);
                 foreach(List<List<Rich>> layer in buffer) {
-                    Rich currRich = layer[partY][partX];
+                    Rich currRich = layer[partY-1][partX-1];
                     if(isTransparent(currRich)) {
                         break;
                     } else {
@@ -63,9 +63,10 @@ public class Renderer
                 }
                 horizontalScan.Add(swapChar);
             }
+            horizontalScan.Reverse();
             final.Add(horizontalScan);
         }
-
+        
         // Turn the final buffer into a printable string and return it.
         return flatten(size);
     }

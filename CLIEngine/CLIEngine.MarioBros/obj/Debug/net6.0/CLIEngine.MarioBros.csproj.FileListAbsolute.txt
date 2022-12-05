@@ -13,3 +13,5 @@
 /home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/ref/CLIEngine.MarioBros.dll
 /home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.pdb
 /home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.genruntimeconfig.cache
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/predic8/School/Coding/GoldenPot/CLIEngine/CLIEngine.MarioBros/obj/Debug/net6.0/CLIEngine.MarioBros.csproj.CopyComplete

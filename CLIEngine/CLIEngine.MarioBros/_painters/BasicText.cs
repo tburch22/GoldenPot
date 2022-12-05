@@ -21,9 +21,9 @@ public class BasicText : IPainter
         List<List<Rich>> output = new List<List<Rich>>();
         List<Rich> charArray = new List<Rich>();
         foreach (Char charTmp in text) {
-            charArray.Append(toRich(charTmp));
+            charArray.Add(toRich(charTmp));
         }
-        output.Append(charArray);
+        output.Add(charArray);
         return output;
     }
 }
