@@ -14,7 +14,8 @@ CLI-Render:
    Die Grafikrohdaten werden von sogenannten Paintern (Maler/Künstler) generiert mit eingabeparametern die auch bei Runtime geändert werden können.
    Das grundsätzliche Basiselement ist das Rich (Reich - Von Rich Text, Text mit Formatdaten), dieses element wird in den Canvas benutzt und vom Renderer zu strings verarbeitet.  
    #M2 Blitting von Objekten auf Leinwand und erster teil Renderer.  
-   #M3 Renderer fertiggestellt.
+   #M3 Renderer fertiggestellt.  
+   #M4 Versuch enormen bug zu fixen.
    
 ### Roadmap
 * [x] Basics            - Basisklassen fertigstellen
