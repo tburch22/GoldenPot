@@ -15,7 +15,7 @@ CLI-Render:
    Das grundsätzliche Basiselement ist das Rich (Reich - Von Rich Text, Text mit Formatdaten), dieses element wird in den Canvas benutzt und vom Renderer zu strings verarbeitet.  
    #M2 Blitting von Objekten auf Leinwand und erster teil Renderer.  
    #M3 Renderer fertiggestellt.  
-   #M4 Versuch enormen bug zu fixen.
+   #M4 Renderer funktionstüchtig.
    
 ### Roadmap
 * [x] Basics            - Basisklassen fertigstellen
