@@ -18,9 +18,10 @@ CLI-Render:
    #M4 Renderer funktionstüchtig.
    
 ### Roadmap
-* [x] Basics            - Basisklassen fertigstellen
-* [ ] Game Loop         - Ein Mainloop der Painter-Parameter ändert
-* [ ] Viewport          - Ein In-Between-Painter (Nimmt Painterdaten an und wandelt sie weiter), simuliert eine Kamera
-* [ ] UI                - Ein GUI-System
-* [ ] Analog Reflection - Automatisches Gameobject -> Grafikkontext linking
-* [ ] Color Bleed       - Metatransparenz für Farben (Riches übernehmen Farben von Riches im Hintergrund)
+* [x] Basics            - Basisklassen fertigstellen (Renderer, Canvas, etc.)
+* [X] Game Loop         - Ein Mainloop der Painter-Parameter ändert.
+* [ ] Surface Painter   - Custom Grafiken Anzeigen.
+* [ ] Sprite Painter    - Spieler mit Spritesheet Animation.
+* [ ] Kollisionen       - Gravitation
+* [ ] Gegner            - Gegner die auf der Map sich bewegen.
+* [ ] Bezier Transform  - Painter der Bezier kurven darstellt.
