@@ -55,9 +55,7 @@ public class Renderer
                 Rich swapChar = new Rich("\u2800", Color.Opacity, BGColor.Opacity);
                 foreach(List<List<Rich>> layer in buffer) {
                     Rich currRich = layer[partY-1][partX-1];
-                    if(isTransparent(currRich)) {
-                        break;
-                    } else {
+                    if(!isTransparent(currRich)) {
                         swapChar = currRich;
                     }
                 }

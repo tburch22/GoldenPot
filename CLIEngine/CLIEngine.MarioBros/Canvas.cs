@@ -16,7 +16,7 @@ public class Canvas
 
     public void Blit(List<List<Rich>> layer, (int, int) locator) {
         List<List<Rich>> result = new List<List<Rich>>();
-        Rich spacer = new Rich(" ", Color.Opacity, BGColor.Opacity);
+        Rich spacer = new Rich("\u2800", Color.Opacity, BGColor.Opacity);
         List<Rich> hFinalSpacer = Enumerable.Repeat(spacer, size.Item1).ToList();
 
         result.AddRange(Enumerable.Repeat(hFinalSpacer, locator.Item2));

@@ -9,6 +9,14 @@ class Program {
         Canvas baseCanvas = new Canvas(125, 42);
 
 
+        baseCanvas.Blit(new Surface(
+            "      ######\n"+
+            "############\n"+
+            "############\n"+
+            "############\n"+
+            "############\n"+
+            "      ######\n",
+        Color.LGreen, BGColor.Black).Paint(), (0, 0));
         baseCanvas.Blit(new BasicText("Mario Bros. CLI 0.4.1-alpha", Color.Black, BGColor.White).Paint(), (baseCanvas.size.Item1/2, baseCanvas.size.Item2-1));
         renderman.Stash(baseCanvas);
 
