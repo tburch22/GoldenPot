@@ -6,26 +6,27 @@ class Program {
     static public void Main(String[] args)
     {
         Renderer renderman = new Renderer();
-        Canvas baseCanvas = new Canvas(125, 42);
+        Canvas baseCanvas = new Canvas(145, 42);
 
         #region PlayingField
-        baseCanvas.Blit(new BlockGen(new Rich("\u2800", Color.Black, BGColor.Black), baseCanvas.size.Item1, baseCanvas.size.Item2));
+        baseCanvas.Blit(new BlockGen(new Rich("\u2588", Color.Black, BGColor.Black), (baseCanvas.size.Item1, baseCanvas.size.Item2)).Paint(), (0, 0));
         baseCanvas.Blit(
             new Surface(
-            "      ######\n"+
-            "############\n"+
-            "############\n"+
-            "############\n"+
-            "############\n"+
-            "      ######\n",
+            "      \u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "      \u2588\u2588\u2588\u2588\u2588\u2588\n",
             Color.LGreen, 
             BGColor.Black
-            ).Paint(), (0, 0)
+            ).Paint(), (0, 4)
         );
+        baseCanvas.Blit(new BlockGen(new Rich("\u2592", Color.Blue, BGColor.Red), (baseCanvas.size.Item1, 3)).Paint(), (0, 0));
         #endregion
 
         #region UIElements
-        baseCanvas.Blit(new BasicText("Mario Bros. CLI 0.4.1-alpha", Color.Black, BGColor.White).Paint(), (baseCanvas.size.Item1/2, baseCanvas.size.Item2-1));
+        baseCanvas.Blit(new BasicText("Mario Bros. CLI 0.4.1-alpha", Color.Black, BGColor.White).Paint(), ((baseCanvas.size.Item1/2)-14, baseCanvas.size.Item2-2));
         #endregion
 
         renderman.Stash(baseCanvas);
