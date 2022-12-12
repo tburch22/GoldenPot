@@ -53,7 +53,7 @@ Zudem sollte man ein besseres Zeitmanagement durchsetzen.
 * [X] Renderer              - Render Klasse zum funktionieren bringen.
 * [X] Game Loop             - Ein Mainloop der Painter-Parameter ändert.
 * [X] Surface Painter       - Custom Grafiken Anzeigen.
-* [/] Sprite Painter        - Spieler mit Spritesheet Animation.
-* [/] Kollisionen           - Gravitation
-* [/] Gegner                - Gegner die auf der Map sich bewegen.
-* [/] Bezier Transform      - Painter der Bezier kurven darstellt.
+* [ ] Sprite Painter        - Spieler mit Spritesheet Animation.
+* [ ] Kollisionen           - Gravitation
+* [ ] Gegner                - Gegner die auf der Map sich bewegen.
+* [ ] Bezier Transform      - Painter der Bezier kurven darstellt.
