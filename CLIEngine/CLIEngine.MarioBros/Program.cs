@@ -22,11 +22,23 @@ class Program {
             BGColor.Black
             ).Paint(), (0, 4)
         );
+        baseCanvas.Blit(
+            new Surface(
+            "      \u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\n"+
+            "      \u2588\u2588\u2588\u2588\u2588\u2588\n",
+            Color.LGreen, 
+            BGColor.Black
+            ).Paint(), (baseCanvas.size.Item1-12, 4)
+        );
         baseCanvas.Blit(new BlockGen(new Rich("\u2592", Color.Blue, BGColor.Red), (baseCanvas.size.Item1, 3)).Paint(), (0, 0));
         #endregion
 
         #region UIElements
-        baseCanvas.Blit(new BasicText("Mario Bros. CLI 0.4.1-alpha", Color.Black, BGColor.White).Paint(), ((baseCanvas.size.Item1/2)-14, baseCanvas.size.Item2-2));
+        baseCanvas.Blit(new BasicText("Mario Bros. CLI 0.5.7-alpha", Color.Black, BGColor.White).Paint(), ((baseCanvas.size.Item1/2)-14, baseCanvas.size.Item2-2));
         #endregion
 
         renderman.Stash(baseCanvas);
